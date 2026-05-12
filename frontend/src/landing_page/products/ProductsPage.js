@@ -16,8 +16,8 @@ function ProductsPage() {
       <LeftSection imageUrl="media/images/varsity.png" productName="Varsity mobile" productDesrption="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go." tryDemo="" learnMore="" googlePlay="" appStore="" />
       <p className="text-center fs-4">
         Want to know more about our technology stack? Check out the{" "}
-        <a href="https://zerodha.tech/" style={{ textDecoration: "none", color: "#387ed1" }}>
-          Zerodha.tech
+        <a href="" style={{ textDecoration: "none", color: "#387ed1" }}>
+         TradeHUB.tech
         </a>{" "}
         blog.
       </p>

@@ -12,7 +12,7 @@ function NotFound() {
             We couldn’t find the page you were looking <br />
             for Visit{" "}
             <Link to="/" style={{ textDecoration: "none", color: "#387ed1" }}>
-              Zerodha’s home page
+              TradeHUB’s home page
             </Link>
           </p>
         </div>
