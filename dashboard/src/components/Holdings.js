@@ -18,10 +18,10 @@ const Holdings = () => {
       .then((res) => {
         SetAllHoldings(res.data);
       });
-  }, []);
+  }, [user]);
 
   const labels = allHoldings.map((subArray) => subArray["name"]);
-
+        
   const data = {
     labels,
     datasets: [

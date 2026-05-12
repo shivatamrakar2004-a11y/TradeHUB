@@ -18,7 +18,7 @@ const Positions = () => {
       .then((res) => {
         SetAllPositions(res.data);
       });
-  }, []);
+  }, [user]);
 
   const labels = allPositions.map((subArray) => subArray["name"]);
 

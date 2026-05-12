@@ -26,7 +26,7 @@ export default function Login() {
     if (user) {
       navigate("/");
     }
-  }, []);
+  }, [navigate, user]);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
